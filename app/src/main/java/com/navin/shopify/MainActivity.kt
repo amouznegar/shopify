@@ -106,7 +106,7 @@ class MainActivity : ComponentActivity() {
 
 
 
-                         Surface (modifier = Modifier.fillMaxSize() ) {
+                         Surface (modifier = Modifier.fillMaxSize().padding(all = 8.dp) ) {
 
                              Navigation()
                         }
